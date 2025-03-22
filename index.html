@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell a Joke!</title>
+</head>
+
+<!--When the user first visits the page, a random joke from the Any category should be loaded with the title "Joke Of The Day" at the top of the 
+page.  When the user clicks one of the category buttons, a random joke from that category should be displayed and the title of the page should 
+change to "A Random Category Joke" (replace category with the name of that Category).  The exception is for a Pun, when the title should just say 
+"A Random Pun" There are two types of jokes that this API delivers. Single-part jokes with just a joke and two-part jokes with a setup and delivery.
+
+For any two part joke, your interface should add "..." between the two parts.
+Your website should follow all the best practices for valid and semantic HTML, and use well written, efficient JavaScript code. 
+No CSS is required for this assignment. 
+There are no additional marks for doing so, but if you want to take it further, try incorporating some of the modern web design features we've 
+explored into your webpage.-->
+<body>
+<h1 id = "pageTitle">Joke of the DAY!!</h1>
+<p id="jokeType"></p>
+<p id = "jokeCategory"></p>
+
+<!---->
+
+<p id="jokeSetup"> </p>
+
+<!-- will put ... if the joke type is a two parter
+-->
+<p id="twoPartBool"></p>
+
+<p id = "jokeDelivery"></p>
+
+
+<p id = "allData"> </p>
+
+
+
+
+    <script src= "scripts.js"></script>
+</body>
+</html>
